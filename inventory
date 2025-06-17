@@ -1,5 +1,6 @@
 10.0.2.202
 10.0.3.236
 
-[all:vars]
-ansible_python_interpreter=/usr/bin/python2.7
+[my_servers]
+10.0.2.26 ansible_python_interpreter=/usr/bin/python3
+10.0.3.85 ansible_python_interpreter=/usr/bin/python3
